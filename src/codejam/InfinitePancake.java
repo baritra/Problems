@@ -1,3 +1,5 @@
+package codejam;
+
 import java.util.*;
 
 public class InfinitePancake {
