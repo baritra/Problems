@@ -1,8 +1,9 @@
 package linkedlist;
 
-public class LNode {
+
+class LNode {
     int val;
-    LNode nexNode;
+    LNode nextNode;
 
     public int getVal() {
         return val;
@@ -13,15 +14,19 @@ public class LNode {
     }
 
     public LNode getNexNode() {
-        return nexNode;
+        return nextNode;
     }
 
     public void setNexNode(LNode nexNode) {
-        this.nexNode = nexNode;
+        this.nextNode = nexNode;
     }
 
     public LNode(int val, LNode nexNode) {
         this.val = val;
-        this.nexNode = nexNode;
+        this.nextNode = nexNode;
+    }
+
+    public LNode(int val) {
+        this.val = val;
     }
 }
